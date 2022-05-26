@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Order summary card</title>
+
+    <style>
+      body {
+        background-color: hsl(225, 100%, 94%);
+      }
+      .img1 {
+        max-width: 100%;
+        width: 100%;
+      }
+      .all {
+        height: auto;
+        width: 550px;
+        margin: auto;
+        background-color: aliceblue;
+        border-radius: 25px;
+        flex-direction: column;
+        overflow: hidden;
+      }
+      .box2 {
+        display: flex;
+        font-size: 20px;
+        justify-content: space-between;
+        padding: 12px;
+        background-color: hsl(225, 100%, 98%);
+      }
+      .box1 {
+        padding: 20px;
+      }
+      h2,
+      h4 {
+        text-align: center;
+        padding: 0px 20px 0px 20px;
+      }
+      .box3 {
+        display: flex;
+
+        font-size: 20px;
+      }
+      .change {
+        display: flex;
+        text-align: right;
+        font-size: 20px;
+        
+      }
+      .plan {
+        display: flex;
+        text-align: left;
+      }
+      .Buttons{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+      }
+      .but{
+       
+        background-image: linear-gradient(-180deg, #37AEE2 0%, #1E96C8 100%);
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-size: 16px;
+  justify-content: center;
+  padding: 17px;
+  text-decoration: none;
+  width: 100%;
+  border: 0;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+      }
+      .but2{
+     
+        background-image: linear-gradient(-180deg, #37AEE2 0%, #1E96C8 100%);
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-size: 16px;
+  justify-content: center;
+  padding: 17px;
+  text-decoration: none;
+  width: 100%;
+  border: 0;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+      }
+      .but:hover{
+        background-image: linear-gradient(-180deg, #1D95C9 0%, #17759C 100%);
+      }
+      .but2:hover{
+        background-image: linear-gradient(-180deg, #1D95C9 0%, #17759C 100%);
+      }
+      
+     
+
+    </style>
+  </head>
+  <body>
+    <div class="all">
+      <img class="img1" src="/images/illustration-hero.svg" />
+      <div class="box1">
+        <h2>Order Summary</h2>
+
+        <h4>
+          You can now listen to millions of songs,audiobooks, and podcasts on
+          any device anywhere you like!
+        </h4>
+
+        <div class="box2">
+          <div class="plan">
+            <img src="/images/icon-music.svg" />
+            Annual Plan<br />
+            $59.99/year
+          </div>
+          <div class="change">
+            <a href="#">Change</a></div>
+        </div>
+        <div class="Buttons">
+        <div class="button">
+          <button class="but" role="button">Place the order</button>
+        </div>
+        <hr>
+        <div class="button2">
+          <button class="but2" role="button">Cancel order</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+
+
